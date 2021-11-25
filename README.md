@@ -12,9 +12,9 @@ Ref: https://www.atlassian.com/git/tutorials/setting-up-a-repository
 ---> cd /path/to/your/existing/code \
 ---> git init
 
-Or \
+Or  
 
----> git init <path_to_directory> \
+---> git init <path_to_directory>  
 
 Terminal output: \
 " \
