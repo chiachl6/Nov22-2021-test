@@ -15,7 +15,7 @@ Ref: https://www.atlassian.com/git/tutorials/setting-up-a-repository
 
 Or
 
----> git init <path_to_directory>
+---> git init <path_to_directory> \
 Terminal output: \
 " \
 hint: Using 'master' as the name for the initial branch. This default branch name \
