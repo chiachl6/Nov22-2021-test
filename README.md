@@ -31,7 +31,17 @@ hint: 	git branch -m <name>
 Initialized empty Git repository in /Users/chiachun.liang/Desktop/Nov24-2021-test/.git/  
 " \
 
-##Downloading a remote repository on github \
+##Downloading a remote repository on github and making updates back and forth \
 Use ssh. \
 ---> git clone <repository_link> \
+Once we clone a repository from github, we have configured it (it's automatically setup tracking). If there are changes to the existing files, just need to commit and push to the github repository (if desire) \
+---> git commit -m "add any title of commit here (this will be the title line)" -m "add any extended description here" \
+---> git push 
+If a new is created within the same repository, need to git add the file (tell git to start tracking) and then git commit \
+---> git add file_name \
+---> git commit -m "add commit message here" \
+---> git push \
+**Note, we can also use "git add ." for anything new files or changes made in the same repository. \
+
+  
 
