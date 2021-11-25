@@ -9,12 +9,13 @@ Github guide: https://docs.github.com/en/get-started/quickstart/hello-world
 ## Initialize git tracking of a newly created or existing repository (to generate .git)
 Ref: https://www.atlassian.com/git/tutorials/setting-up-a-repository
 
----> cd /path/to/your/existing/code 
-
+---> cd /path/to/your/existing/code \
 ---> git init
 
 Or \
+
 ---> git init <path_to_directory> \
+
 Terminal output: \
 " \
 hint: Using 'master' as the name for the initial branch. This default branch name \
