@@ -29,4 +29,9 @@ hint: 'development'. The just-created branch can be renamed via this command:
 hint:  
 hint: 	git branch -m <name>  
 Initialized empty Git repository in /Users/chiachun.liang/Desktop/Nov24-2021-test/.git/  
-"
+" \
+
+##Downloading a remote repository on github \
+Use ssh. \
+---> git clone <repository_link> \
+
