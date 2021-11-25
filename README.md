@@ -15,4 +15,4 @@ Ref: https://www.atlassian.com/git/tutorials/setting-up-a-repository
 
 Or
 
----> git init <project directory>
+---> git init "<path_to_directory>"
