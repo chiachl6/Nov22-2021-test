@@ -13,8 +13,7 @@ Ref: https://www.atlassian.com/git/tutorials/setting-up-a-repository
 
 ---> git init
 
-Or
-
+Or \
 ---> git init <path_to_directory> \
 Terminal output: \
 " \
