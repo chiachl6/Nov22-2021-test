@@ -22,12 +22,12 @@ hint: Using 'master' as the name for the initial branch. This default branch nam
 hint: is subject to change. To configure the initial branch name to use in all \
 hint: of your new repositories, which will suppress this warning, call: <br />
 hint: <br />
-hint: 	git config --global init.defaultBranch <new_name> \
+hint: 	git config --global init.defaultBranch <new_branch_name>  
 hint: <br />
 hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and  
 hint: 'development'. The just-created branch can be renamed via this command:  
 hint:  
-hint: 	git branch -m <name>  
+hint: 	git branch -m <name>  \
 Initialized empty Git repository in /Users/chiachun.liang/Desktop/Nov24-2021-test/.git/  
 " \
 
