@@ -27,11 +27,11 @@ hint: <br />
 hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and  
 hint: 'development'. The just-created branch can be renamed via this command:  
 hint:  
-hint: 	git branch -m <name>  \
+hint: 	git branch -m <name>  
 Initialized empty Git repository in /Users/chiachun.liang/Desktop/Nov24-2021-test/.git/  
-" \
+" 
 
-##Downloading a remote repository on github and making updates back and forth \
+## Downloading a remote repository on github and making updates back and forth
 Use ssh. \
 ---> git clone <repository_link> \
 Once we clone a repository from github, we have configured it (it's automatically setup tracking). If there are changes to the existing files, just need to commit and push to the github repository (if desire) \
