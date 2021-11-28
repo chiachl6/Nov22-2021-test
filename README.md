@@ -43,5 +43,8 @@ If a new is created within the same repository, need to git add the file (tell g
 ---> git push \
 **Note, we can also use "git add ." for anything new files or changes made in the same repository. \
 
+
+  If there are some new updates from the remote branch (that's say, you change something on the repository in github), the way to update your local branch will be: \
+
   
 
