@@ -27,7 +27,7 @@ hint: <br />
 hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and  
 hint: 'development'. The just-created branch can be renamed via this command:  
 hint:  
-hint: 	git branch -m <name>  
+hint: 	git branch -m <branch_name_desired_to_remove>  
 Initialized empty Git repository in /Users/chiachun.liang/Desktop/Nov24-2021-test/.git/  
 " 
 
@@ -41,8 +41,8 @@ If a new file is created within the same repository, need to git add the file (t
 ---> git add file_name \
 ---> git commit -m "add commit message here" \
 ---> git push \
-** Note, we can also use "git add ." for anything new files or changes made in the same repository. \
-** Use "git status" whenever you feels like it to check out the current updates on your local repository (like what files are edited, what files are newly created, etc)
+* Note, we can also use "git add ." for anything new files or changes made in the same repository. \
+* Use "git status" whenever you feels like it to check out the current updates on your local repository (like what files are edited, what files are newly created, etc)
 \
 \
 If there are some new updates from the remote branch (that's say, you change something on the repository in github), the way to update your local branch will be: \
