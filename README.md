@@ -45,6 +45,9 @@ If a new is created within the same repository, need to git add the file (tell g
 
 
   If there are some new updates from the remote branch (that's say, you change something on the repository in github), the way to update your local branch will be: \
+  ---> git pull
+  *Note, not specifying any branch is allowed only when you already set up a tracked remote branch (if there are multiple tracked remote branches, need to specify)
+  *Good ref: https://www.freecodecamp.org/news/git-pull-explained/
 
   
 
