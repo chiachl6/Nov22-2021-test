@@ -33,7 +33,7 @@ Initialized empty Git repository in /Users/chiachun.liang/Desktop/Nov24-2021-tes
 
 ## Downloading a remote repository on github and making updates back and forth
 Use ssh. \
----> git clone <repository_ssh_link> \
+---> git clone <repository_ssh_link>  
 
 Once we clone a repository from github, we have configured it (it's automatically setup tracking). If there are changes to the existing files, just need to commit and push to the github repository (if desire) \
 ---> git commit -m "add any title of commit here (this will be the title line)" -m "add any extended description here" \
