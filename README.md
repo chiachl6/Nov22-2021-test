@@ -40,16 +40,16 @@ Once we clone a repository from github, we have configured it (it's automaticall
 If a new file is created within the same repository, need to git add the file (tell git to start tracking that file) and then do git commit \
 ---> git add file_name \
 ---> git commit -m "add commit message here" \
----> git push \
-* Note, we can also use "git add ." for anything new files or changes made in the same repository. \
+---> git push 
+* Note, we can also use "git add ." for anything new files or changes made in the same repository. 
 * Use "git status" whenever you feels like it to check out the current updates on your local repository (like what files are edited, what files are newly created, etc)
-\
+
 
 
 If there are some new updates from the remote branch (that's say, you change something on the repository in github), the way to update your local branch will be:\
 ---> git pull 
 * Note, not specifying any branch is allowed only when you already set up a tracked remote branch (if there are multiple tracked remote branches, need to specify) 
-* Good ref: https://www.freecodecamp.org/news/git-pull-explained/ \
+* Good ref: https://www.freecodecamp.org/news/git-pull-explained/ 
 
   
 
