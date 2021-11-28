@@ -32,7 +32,7 @@ Initialized empty Git repository in /Users/chiachun.liang/Desktop/Nov24-2021-tes
 " 
 
 ## Downloading a remote repository on github and making updates back and forth
-Use ssh. \
+Use ssh. Before you clone any repository to your local computer, you need to set up ssh key. Each device should have 1 ssh key pair (public + private). Some ppl use multiple keys on same device, but even with multiple keys, it's always going to be the same public key, so maybe having multiple keys are not necessary. (Good ref to install ssh keys: https://www.youtube.com/watch?v=2dA1dfkS79o) \
 ---> git clone <repository_ssh_link>  
 
 Once we clone a repository from github, we have configured it (it's automatically setup tracking). If there are changes to the existing files, just need to commit and push to the github repository (if desire) \
