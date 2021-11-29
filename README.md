@@ -52,5 +52,20 @@ If there are some new updates from the remote branch (that's say, you change som
 * Note, not specifying any branch is allowed only when you already set up a tracked remote branch (if there are multiple tracked remote branches, need to specify) 
 * Good ref: https://www.freecodecamp.org/news/git-pull-explained/ 
 
-  
+Delete my local repository, need to try again cloning and push back and forth. Do not try to rename my branch yet! I'll probably want to check this section of video again, including git push origin(your current branch) master(branch you wish to push to)
 
+# Git branching
+Ways to check out branches you have:
+1. git status
+2. git branch
+* Note that the * sign in front of a branch is the current branch you are on
+
+Creating new branch: \
+---> git branch -b new_branch_name \
+Once we have multiple branches, we can switch among branches:\
+---> git checkout branch_you_wish_to_switch \
+
+## Merging branches locally
+---> git merge
+---> git diff
+41:27
