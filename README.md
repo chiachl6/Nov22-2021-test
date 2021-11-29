@@ -65,6 +65,13 @@ Creating new branch: \
 Once we have multiple branches, we can switch among branches:\
 ---> git checkout branch_you_wish_to_switch \
 
+Comparing 2 branches or a file within 2 branches before merging: \
+Go into 1 branch first (ex: main) and type on terminal: \
+---> git diff branch_name_you_wish_to_compare \
+Or we can do \
+---> git diff branch1..branch2 \
+If comparing a file between 2 branches or just comaring commits between 2 branches, see this: https://devconnected.com/how-to-compare-two-git-branches/. Other ref: https://stackoverflow.com/questions/9834689/how-can-i-see-the-differences-between-two-branches
+
 ## Merging branches locally
 ---> git merge
 ---> git diff
