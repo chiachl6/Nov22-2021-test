@@ -63,7 +63,7 @@ Ways to check out branches you have:
 Creating new branch: \
 ---> git branch -b new_branch_name \
 Once we have multiple branches, we can switch among branches:\
----> git checkout branch_you_wish_to_switch\
+---> git checkout branch_you_wish_to_switch \
 
 Comparing 2 branches or a file within 2 branches before merging: \
 Go into 1 branch first (ex: main) and type on terminal: \
