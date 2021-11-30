@@ -53,6 +53,7 @@ If there are some new updates from the remote branch (that's say, you change som
 * Good ref: https://www.freecodecamp.org/news/git-pull-explained/ 
 
 Delete my local repository, need to try again cloning and push back and forth. Do not try to rename my branch yet! I'll probably want to check this section of video again, including git push origin(your current branch) master(branch you wish to push to)
+Maybe if I rename it, what I should do after that is set upstream branch: git push --set-upstream origin development(branch I renamed) OR I should try creating a empty branch on github name exactly same "development", upload/push my local development branch to that new empty branch, and then create a pull request, and then merge with my main stream
 
 # Git branching
 Ways to check out branches you have:
@@ -76,3 +77,6 @@ If comparing a file between 2 branches or just comparing commits between 2 branc
 ---> git merge
 ---> git diff
 41:27
+
+Delete a branch: \
+---> git branch -b branch_you_wish_to_delete
