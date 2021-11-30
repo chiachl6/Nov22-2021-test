@@ -66,7 +66,7 @@ Creating new branch: \
 Once we have multiple branches, we can switch among branches:\
 ---> git checkout branch_you_wish_to_switch \
 * If I wish to push this newly created branch to github (which, github doesn't have it), I create an empty branch on github name exactly same name, upload/push my local development branch to that new empty branch, and then create a pull request, and then merge with my main branch if desire
-* If I created a new empty branch on my local computer, and if I wish to update my new branch with the main branch (upstream bbranch) on github, I need to set upstream branch first to this new local branch (in my case: git branch --set-upstream-to=origin/main test_branch), and then I can use git pull.
+* If I created a new empty branch on my local computer (or in the video the author created a completely new reposit), and if I wish to update my new branch with the main branch (upstream bbranch) on github, I need to set upstream branch first to this new local branch (in my case: git branch --set-upstream-to=origin/main test_branch), and then I can use git pull.
 
 Comparing 2 branches or a file within 2 branches before merging: \
 Go into 1 branch first (ex: main) and type on terminal: \
@@ -84,4 +84,9 @@ Delete a branch: \
 ---> git branch -b branch_you_wish_to_delete
 TESTING
 TESTING2
+<<<<<<< HEAD
 HAHAHA
+=======
+Something
+Something2
+>>>>>>> 70241fb892e25f307ba1f67c40d95343bdc54025
