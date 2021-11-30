@@ -80,3 +80,5 @@ If comparing a file between 2 branches or just comparing commits between 2 branc
 
 Delete a branch: \
 ---> git branch -b branch_you_wish_to_delete
+TESTING
+TESTING2
