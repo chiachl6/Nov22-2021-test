@@ -62,7 +62,7 @@ Ways to check out branches you have:
 * Note that the * sign in front of a branch is the current branch you are on
 
 Creating new branch: \
----> git branch -b new_branch_name \
+---> git checkout -b new_branch_name \
 Once we have multiple branches, we can switch among branches:\
 ---> git checkout branch_you_wish_to_switch \
 If I wish to push this newly created branch to github (which, github doesn't have it), I create an empty branch on github name exactly same name, upload/push my local development branch to that new empty branch, and then create a pull request, and then merge with my main branch if desire
