@@ -78,10 +78,13 @@ If comparing a file between 2 branches or just comparing commits between 2 branc
 ## Merging branches locally
 ---> git merge
 ---> git diff
-41:27
+
 
 Delete a branch: \
 ---> git branch -b branch_you_wish_to_delete
 TESTING
 TESTING2
 Something
+
+# Git workflow (super important after learning all git commands!!)
+If making some changes on a test branch, always push to a test branch on github (always name the same), create a pull request to merge into main branch. From there, on the main branch on your local computer, the changes can be pulled from main branch in github. I get terminal showing conflicts sometimes. This part I need to learn more.
