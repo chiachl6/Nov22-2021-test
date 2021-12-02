@@ -102,3 +102,4 @@ Forking is a way that you can customize a public repository/project that you too
 
 # Git workflow (super important after learning all git commands!!)
 If making some changes on a test branch, always push to a test branch on github (always name the same), create a pull request to merge into main branch. From there, on the main branch on your local computer, the changes can be pulled from main branch in github. I get terminal showing conflicts sometimes. This part I need to learn more.
+Ref: https://www.youtube.com/watch?v=aJnFGMclhU8 -> here's also talk about some conventional naming of branches for different purposes
