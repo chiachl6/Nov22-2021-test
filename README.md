@@ -36,9 +36,10 @@ Use ssh. Before you clone any repository to your local computer, you need to set
 ---> git clone <repository_ssh_link>  
 
 Once we clone a repository from github, we have configured it (it's automatically setup tracking). If there are changes to the existing files, just need to add, commit and push to the github repository (if desire) \
----> git add filename_you_made_edits (even though this is not a new file I created, looks like I still need to add it first)
+---> git add filename_you_made_edits (even though this is not a new file I created, looks like I still need to add it first) \
 ---> git commit -m "add any title of commit here (this will be the title line)" -m "add any extended description here" \
 ---> git push \ (if haven't setup upstream branch yet, i.e, may have multiple branches on github and you do not tell which branch to push to, need to set up upstream branch: git push --set-upstream origin branch_I_wish_to_push_to. The branch I wish to push here is named "main") \
+* For an already tracked file, we can actually just use: git commit -am "add message". -am stands for add and commit \
 * If a new file is created within the same repository, definitely need to git add the file (tell git to start tracking that file) and then do git commit \
 ---> git add file_name \
 ---> git commit -m "add commit message here" \
@@ -76,15 +77,28 @@ Or we can do \
 If comparing a file between 2 branches or just comparing commits between 2 branches, see this: https://devconnected.com/how-to-compare-two-git-branches/. Other ref: https://stackoverflow.com/questions/9834689/how-can-i-see-the-differences-between-two-branches
 
 ## Merging branches locally
----> git merge
----> git diff
-
+---> git diff \
+---> git merge master(the main branch which got the updates from github and you want to merge into your local test branch)\
+We do git merge when working on your local test branch. You will want to constantly update the main branch on your local computer (bc other ppl who are working on the same project may have some updates to the github) and then merge into your test branch that you are making changes. When conflicts happen when merging, the best way to solve this is open your code editor, look at the code and decide what to keep (should get a good code editor).
 
 Delete a branch: \
 ---> git branch -b branch_you_wish_to_delete
 TESTING
 TESTING2
 Something
+
+Undoing a "git add" or "git commit": \
+If you just git add something and you want to undo it, use \
+---> git reset \
+This will undo the previous git add you just made. If you already committed it, use: \
+---> git reset HEAD~1 \
+This is take out/unstage the lastest commit, changes made in your file are still there, but not "git add" and "git commit". If you want undo several commits, then need to go into log file, look at the unique id that each commit has, and use that id to reset \
+---> git log \ 
+---> git reset 70241fb892e25f307ba1f67c40d95343bdc54025(example id) \
+* If you want to completely wipe out the changes you've made in files, use: git reset --hard 70241fb892e25f307ba1f67c40d95343bdc54025(example id)
+
+# Forking
+Forking is a way that you can customize a public repository/project that you took from other ppl's account. This allows you to make full control of the repository/project. If you want to give feedback to the account that you forked the repository from, create a pull request.
 
 # Git workflow (super important after learning all git commands!!)
 If making some changes on a test branch, always push to a test branch on github (always name the same), create a pull request to merge into main branch. From there, on the main branch on your local computer, the changes can be pulled from main branch in github. I get terminal showing conflicts sometimes. This part I need to learn more.
